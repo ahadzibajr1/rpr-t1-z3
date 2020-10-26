@@ -39,6 +39,14 @@ public class Sat {
             sati = 23;
     }
 
+    public void pomjeriZa (int pomak) {
+        if (pomak > 0)
+            for (int i=0; i < pomak; i++) sljedeci();
+
+        else if (pomak < 0)
+            for (int i=pomak; i < 0; i++) prethodni();
+    }
+
 
 
 
