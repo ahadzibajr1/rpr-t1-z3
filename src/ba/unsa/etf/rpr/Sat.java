@@ -10,6 +10,22 @@ public class Sat {
         this.sati = sati; this.minute = minute; this.sekunde=sekunde;
     }
 
+    public void sljedeci () {
+        sekunde++;
+        if (sekunde == 60) {
+            sekunde = 0;
+            minute++;
+        }
+        if (minute == 60) {
+            minute = 0;
+            sati++;
+        }
+        if (sati == 24)
+            sati = 0;
+
+    }
+
+
 
 
 
