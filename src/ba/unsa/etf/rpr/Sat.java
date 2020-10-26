@@ -47,9 +47,13 @@ public class Sat {
             for (int i=pomak; i < 0; i++) prethodni();
     }
 
-
-
-
-
-
+    public int getSati() {
+        return sati;
+    }
+    public int getMinute() {
+        return minute;
+    }
+    public int getSekunde () {
+        return sekunde;
+    }
 }
