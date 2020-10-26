@@ -58,6 +58,6 @@ public class Sat {
     }
 
     public void ispisi () {
-        System.out.println("" + sati +":" + minute + ":" + sekunde);
+        System.out.println("" + sati +":" + minute + ":" + sekunde + "\n");
     }
 }
