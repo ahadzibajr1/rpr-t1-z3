@@ -25,6 +25,21 @@ public class Sat {
 
     }
 
+    public void prethodni () {
+        sekunde--;
+        if (sekunde == -1) {
+            sekunde = 59;
+            minute--;
+        }
+        if (minute == -1) {
+            minute = 59;
+            sati--;
+        }
+        if (sati == -1)
+            sati = 23;
+    }
+
+
 
 
 
